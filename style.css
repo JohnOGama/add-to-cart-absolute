@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+}
+
+.image-preview {
+	position: relative;
+	width: 300px;
+}
+
+.image-preview img {
+	width: 300px;
+}
+
+.image-preview p {
+	position: absolute;
+	top: 5px;
+	right: 0;
+	background: black;
+	color: white;
+	padding: 8px 10px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.white {
+	position: absolute;
+	display: flex;
+	bottom: 0;
+	background: rgba(255, 255, 255, 0.6);
+	right: 0;
+	height: 50%;
+	width: 100%;
+}
+
+.white button {
+	position: absolute;
+	padding: 10px 20px;
+	bottom: 0px;
+	left: 97px;
+	margin-bottom: 60px;
+}
